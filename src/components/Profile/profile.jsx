@@ -7,7 +7,7 @@ export const Profile = ({ avatar, username, tag, location, followers, likes, vie
         <Description>
             <Avatar src={avatar} alt={username} />
             <Name>{username}</Name>
-            <Tag>{tag}</Tag>
+            <Tag>@{tag}</Tag>
             <Location>{location}</Location>
         </Description>
         <Stats>
